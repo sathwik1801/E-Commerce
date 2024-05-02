@@ -1,0 +1,50 @@
+.update-product {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .update-product h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .update-product .message-p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .update-product .common-form {
+    width: 100%;
+  }
+  
+  .update-product .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .update-product .form-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4CAF50;
+  }
+  
+  .update-product .form-button {
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .update-product .form-button:hover {
+    background-color: #3e8e41;
+  }

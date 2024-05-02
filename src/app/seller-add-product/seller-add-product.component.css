@@ -1,0 +1,66 @@
+ /* h1{
+    color: blueviolet;
+    text-align: center;
+}
+.add-product{
+    text-align: center;
+} */
+
+/* Container */
+.add-product {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Heading */
+.add-product h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.common-form {
+  display: grid;
+  grid-gap: 15px;
+}
+
+/* Form input fields */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Textarea */
+textarea.form-input {
+  height: 100px;
+  resize: vertical;
+}
+
+/* Form button */
+.form-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Message paragraph */
+.message-p {
+  margin-top: 10px;
+  font-style: italic;
+  color: #ff0000;
+} 

@@ -1,0 +1,82 @@
+/* .my-orders {
+    margin-bottom: 100px;
+}
+
+.my-orders h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.my-orders .order-img {
+    width: 100px;
+}
+
+.my-orders .row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+
+} */
+/* My Orders Container */
+.my-orders {
+    margin-bottom: 100px;
+}
+
+/* Heading */
+.my-orders h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 28px;
+    color: #333; /* Dark grey */
+}
+
+/* Order Image */
+.my-orders .order-img {
+    width: 100px;
+    display: block; /* Ensures proper spacing */
+    margin: 0 auto; /* Center align */
+}
+
+/* Rows */
+.my-orders .row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Light grey border */
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center align items vertically */
+}
+
+/* Columns */
+.my-orders .col-sm-2 {
+    width: 20%; /* Equal width for each column */
+    text-align: center; /* Center align text */
+}
+
+/* Buttons */
+.my-orders .form-button {
+    height: 35px;
+    border-radius: 5px;
+    background-color: #d9534f; /* Red */
+    color: #fff; /* White text */
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Ensures proper button alignment */
+    margin: 0 auto; /* Center align */
+}
+
+.my-orders .form-button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .my-orders .col-sm-2 {
+        width: auto; /* Auto width for small screens */
+        text-align: left; /* Left align text for small screens */
+    }
+}

@@ -1,0 +1,82 @@
+.user-auth {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .user-auth h1 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-auth .common-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+  }
+  
+  .user-auth .form-input {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .user-auth .form-input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4CAF50;
+  }
+  
+  .user-auth .form-button {
+    width: 200px;
+    padding: 5px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .user-auth .form-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .user-auth .invalid-input {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .user-auth .sign-up p,
+  .user-auth .login p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .user-auth .sign-up p a,
+  .user-auth .login p a {
+    color: #4CAF50;
+    cursor: pointer;
+  }
+  
+  .user-auth .sign-up p a:hover,
+  .user-auth .login p a:hover {
+    text-decoration: underline;
+  }
+  
+  .user-auth .error-p {
+    color: red;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }

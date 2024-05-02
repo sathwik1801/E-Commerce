@@ -1,0 +1,20 @@
+.error-container {
+  background-color: #f2f2f2; /* light gray background */
+  padding: 20px;
+  border: 1px solid #ccc; /* light gray border */
+  border-radius: 5px; /* rounded corners */
+  max-width: 500px; /* max width to prevent stretching */
+  margin: 40px auto; /* center the container */
+}
+
+.error-container h2 {
+  color: #333; /* dark gray text */
+  font-size: 24px;
+  margin-top: 0; /* remove top margin */
+}
+
+.error-container p {
+  color: #666; /* medium gray text */
+  font-size: 18px;
+  margin-bottom: 20px; /* add some space below the paragraph */
+}
